@@ -1,0 +1,51 @@
+body {
+    font-family: "Rondo", sans-serif;
+}
+
+h1, h2, p {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+figcaption {
+    font-size: 10px;
+    text-align: center;
+}
+
+.options {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#rock {
+    background-color: rgb(207, 165, 122)
+}
+
+#paper {
+    background-color: rgb(188, 188, 188);
+}
+
+#scissors {
+    background-color: rgb(255, 128, 128);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

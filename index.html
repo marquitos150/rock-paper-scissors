@@ -4,12 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>ROCK, PAPER, SCISSORS</h1>
+    <div class="top-section">
+        <div>
+            <img src="images/smiling-man.jpg" alt="guy">
+            <figcaption><a href="https://www.freepik.com/free-photo/portrait-smiling-charming-young-man-grey-t-shirt-standing-against-plain-background_5257625.htm">Image by freepik</a></figcaption>
+        </div>
+        <h2>Human vs. Computer</h3>
+        <div>
+            <img src="images/computer.jpg" alt="computer">
+            <figcaption><a href="https://www.freepik.com/free-photo/retro-computer-technology-with-monitor-hardware_34134894.htm#fromView=search&page=1&position=19&uuid=d59a0a02-c3b8-45d6-bf39-842d9071cb44&query=computer">Image by freepik</a></figcaption>
+        </div>
+    </div>
+    <div class="description">
+        <h2>Game Description</h2>
+        <p>
+            Ok human. You're going to play rock paper scissors against a computer.
+            Don't know how to play? Look at the README file in my repo damn it!
+        </p>
+        <p>
+            First to win 5 rounds wins the game. But judging by your smug look, you won't stand a chance!
+            Good luck loser! HAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHA!
+        </p>
+    </div>
     <div class="options">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+        <div class="option-1">
+            <button id="rock">
+                <p><strong>Rock</strong></p>
+                <img src="images/rock.png" alt="rock-icon">
+            </button>
+            <figcaption><a target="_blank" href="https://icons8.com/icon/37409/rock">Rock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></figcaption>
+        </div>
+        <div class="option-2">
+            <button id="paper">
+                <p><strong>Paper</strong></p>
+                <img src="images/paper.png" alt="paper-icon">
+            </button>
+            <figcaption><a target="_blank" href="https://icons8.com/icon/48760/paper">Paper</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></figcaption>
+        </div>
+        <div class="option-3">
+            <button id="scissors">
+                <p><strong>Scissors</strong></p>
+                <img src="images/scissors.png" alt="scissors-icon">
+            </button>
+            <figcaption><a target="_blank" href="https://icons8.com/icon/37828/scissors">Scissors</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></figcaption>
+        </div>
     </div>
     <div class="results"></div>
     <script src="rock-paper-scissors.js"></script>

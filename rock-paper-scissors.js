@@ -11,7 +11,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice(event) {
-    let target = event.target;
+    let target = event.target.closest("button");
     switch(target.id) {
         case "rock":
             return "rock";
